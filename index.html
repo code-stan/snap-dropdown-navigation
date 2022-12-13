@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="overlay" aria-hidden="true"></div>
+    <section class="head section">
+      <header class="header">
+        <div class="header-logo">
+          <img src="./images/logo.svg" alt="Snap logo" />
+        </div>
+        <nav class="navbar">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <div class="fec expand-close">
+                Features 
+                  <svg
+                    class="arrow-exp"
+                    width="10"
+                    height="6"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke="#686868"
+                      stroke-width="1.5"
+                      fill="none"
+                      d="m1 1 4 4 4-4"
+                    />
+                  </svg>
+              </div>
+              <div class="f-expand expand">
+              <ul class="f-list">
+                <li class="f-item cl-item"><a href="" class="f-link">
+                  <span>
+                    <img src="./images/icon-todo.svg" alt=""></span>
+                     Todo List
+                    </a>
+                  </li>
+                 <li class="f-item cl-item"> 
+                      <a href="" class="f-link">
+                      <span>
+                        <img src="./images/icon-calendar.svg" alt="">
+                      </span> 
+                        Calendar
+                    </a>
+                 </li>
+                <li class="f-item cl-item">
+                    <a href="" class="f-link">
+                    <span>
+                      <img src="./images/icon-reminders.svg" alt="">
+                    </span> 
+                       Reminders
+                    </a>
+                </li>
+                <li class="f-item cl-item">
+                  <a href="" class="f-link">
+                    <span>
+                      <img src="./images/icon-planning.svg" alt="">
+                    </span>
+                     Planning
+                    </a>
+                  </li>
+              </ul>
+            </div>
+            </li>
+            <li class="nav-item">
+              <div class="cec expand-close">
+                Company
+                  <svg
+                    class="arrow-exp"
+                    width="10"
+                    height="6"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke="#686868"
+                      stroke-width="1.5"
+                      fill="none"
+                      d="m1 1 4 4 4-4"
+                    />
+                  </svg>
+              </div>
+              <div class="c-expand expand">
+              <ul class="company-list">
+                <li class="com-list-item cl-item">
+                  <a href="" class="c-list-link">History</a>
+                </li>
+                <li class="com-list-item cl-item">
+                  <a href="" class="c-list-link">Our team</a>
+                </li>
+                <li class="com-list-item cl-item">
+                  <a href="" class="c-list-link">Blog</a>
+                </li>
+              </ul>
+            </div>
+            </li>
+            <li class="nav-item">
+              <a href="">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a href="">About</a>
+            </li>
+          </ul>
+          <ul class="sign-page">
+            <li class="sp-login sp">
+              <button class="sp-btn cl-item">
+                <a href="">Login</a>
+              </button>
+            </li>
+            <li class="sp-register sp">
+              <button class="sp-btn sb-2 cl-item btn">
+                <a href="">Register</a>
+              </button>
+            </li>
+          </ul>
+        </nav>
+        <button role="menu" class="ham-menu">
+          <img data-open="false" class="menu-img" src="./images/icon-menu.svg" alt="" />
+        </button>
+      </header>
+    </section>
+
+    <!-- MAIN SECTION -->
+    <section class="main">
+      <div class="landing-image">
+        <picture>
+          <source
+            media="(min-width: 65em)"
+            srcset="./images/image-hero-desktop.png"
+          />
+          <img src="./images/image-hero-mobile.png" alt="" />
+        </picture>
+      </div>
+      <div class="landing-content section">
+        <div class="landing-title">
+          <h1>Make remote work</h1>
+        </div>
+        <div class="landing-text">
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+        </div>
+        <button type="button" class="landing-btn btn">Learn more</button>
+        <section class="footer">
+          <img src="./images/client-databiz.svg" alt="Databiz logo" />
+          <img src="./images/client-audiophile.svg" alt="Audiophile logo" />
+          <img src="./images/client-meet.svg" alt="Meet logo" />
+          <img src="./images/client-maker.svg" alt="Maker logo" />
+        </section>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
