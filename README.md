@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://code-stan.github.io/snap-dropdown-navigation)
+- Live Site URL: [Add live site URL here](https://code-stan.github.io/snap-dropdown-navigation/)
 
 ## My process
 
